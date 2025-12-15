@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .product-img {
+      transition: transform 0.3s ease;
+    }
+    .product-img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 2rem 0;
+    }
+    .logo {
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-dark text-white text-center py-4">
+    <h1>My Online Store</h1>
+    <p class="lead">Find your favorite items here!</p>
+  </header>
+
+  <!-- Product Grid -->
+  <div class="container my-5">
+    <div class="row g-4">
+    
+      <!-- Product 1 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="orange_juice.jpg" class="card-img-top img-fluid product-img" alt="Product 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Orange juice</h5>
+            <p class="card-text">R19.99</p>
+            <button class="btn btn-primary">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="banana.jpg" class="card-img-top img-fluid product-img" alt="Product 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">banana</h5>
+            <p class="card-text">R24.99</p>
+            <button class="btn btn-primary">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="pineapple.jpg" class="card-img-top img-fluid product-img" alt="Product 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Pineapple</h5>
+            <p class="card-text">R22.99</p>
+            <button class="btn btn-primary">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="milk.jpg" class="card-img-top img-fluid product-img" alt="Product 4">
+          <div class="card-body text-center">
+            <h5 class="card-title">Milk</h5>
+            <p class="card-text">R19.99</p>
+            <button class="btn btn-primary">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="bread.jpg" class="card-img-top img-fluid product-img" alt="Product 5">
+          <div class="card-body text-center">
+            <h5 class="card-title">Bread</h5>
+            <p class="card-text">R15.00</p>
+            <button class="btn btn-primary">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="cheese.jpg" class="card-img-top img-fluid product-img" alt="Product 6">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cheese</h5>
+            <p class="card-text">R30.00</p>
+            <button class="btn btn-primary">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="wine.jpg" class="card-img-top img-fluid product-img" alt="Product 7">
+          <div class="card-body text-center">
+            <h5 class="card-title">Wine</h5>
+            <p class="card-text">R150.00</p>
+            <button class="btn btn-primary">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="charcoal.jpg" class="card-img-top img-fluid product-img" alt="Product 8">
+          <div class="card-body text-center">
+            <h5 class="card-title">Charcoal</h5>
+            <p class="card-text">R50.00</p>
+            <button class="btn btn-primary">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 9 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="cornflakes.jpg" class="card-img-top img-fluid product-img" alt="Product 9">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cornflakes</h5>
+            <p class="card-text">R60.00</p>
+            <button class="btn btn-primary">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 10 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="sugar.jpg" class="card-img-top img-fluid product-img" alt="Product 10">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sugar</h5>
+            <p class="card-text">R35.99</p>
+            <button class="btn btn-primary">Buy</button>
+          </div>
+        </div>
+      </div>
+
+  <!-- Footer with Contact Form -->
+  <footer>
+    <div class="container">
+      <form class="row align-items-center">
+        <div class="col-md-2 text-center mb-3 mb-md-0">
+          <img src="logoo.jpg" alt="Company Logo" class="logo">
+        </div>
+        <div class="col-md-8">
+          <div class="row g-2">
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="col-md-4">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="col-md-4">
+              <input type="tel" class="form-control" placeholder="Phone">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 text-center mt-3 mt-md-0">
+          <button type="submit" class="btn btn-outline-secondary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
