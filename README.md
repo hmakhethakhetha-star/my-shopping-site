@@ -20,7 +20,6 @@ https://hmakhethakhetha-star.github.io/my-shopping-site
 
 ## 🧰 Technologies Used
 - HTML5
-- CSS3 (if used)
 - GitHub Pages for deployment
 
 ---
