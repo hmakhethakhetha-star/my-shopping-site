@@ -1,6 +1,6 @@
 # 🛒 My Shopping Site
 
-A simple static website that displays grocery items such as bread, milk, fruit, and household essentials. This project was created as part of a web development task and deployed using GitHub Pages.
+A simple static website that displays grocery items such as bread, milk, fruit, and household essentials. This project was deployed using GitHub Pages.
 
 ---
 
@@ -25,7 +25,23 @@ https://hmakhethakhetha-star.github.io/my-shopping-site
 ---
 
 ## 📂 Project Structure
-my-shopping-site/ │ ├── index.html ├── README.md ├── milk.jpg ├── bread.jpg ├── cheese.jpg ├── sugar.jpg ├── wine.jpg ├── pineapple.jpg ├── orange_juice.jpg ├── banana.jpg ├── charcoal.jpg ├── cornflakes.jpg └── logoo.jpg
+my-shopping-site/
+│
+├── index.html
+├── README.md
+├── milk.jpg
+├── bread.jpg
+├── cheese.jpg
+├── sugar.jpg
+├── wine.jpg
+├── pineapple.jpg
+├── orange_juice.jpg
+├── banana.jpg
+├── charcoal.jpg
+├── cornflakes.jpg
+├── logoo.jpg
+└── other images...
+
 
 ---
 
